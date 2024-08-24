@@ -1,0 +1,28 @@
+package a02;
+
+import java.util.Scanner;
+
+public class Aula02ex29 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double soma = 0, media = 0;
+		int i = 0,numero;
+		
+		while (true){
+			System.out.print("Digite um numero: ");
+			numero = sc.nextInt();
+			if (numero == 0) {
+				break;
+			}
+			soma += numero;
+			i +=1;
+		}
+		media = soma/i;
+		System.out.printf("MEDIA: %.2f ",media);
+
+		
+		sc.close();
+	}
+
+}

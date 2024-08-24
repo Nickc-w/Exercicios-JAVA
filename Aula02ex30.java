@@ -1,0 +1,27 @@
+package a02;
+
+import java.util.Scanner;
+
+public class Aula02ex30 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int numero,maior=0;
+		
+		while(true) {
+			System.out.print("Digite um numero: ");
+			numero = sc.nextInt();
+			if (numero == 0) {
+				break;
+			}
+			if (numero > maior) {
+				maior = numero;
+			}
+		}
+           
+		System.out.printf("O maior numero é: %d", maior);
+		
+	sc.close();	
+	}
+
+}
