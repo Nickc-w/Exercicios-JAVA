@@ -16,7 +16,7 @@ public class Aula02ex14 {
 		altura = sc.nextDouble();
 		
 		//Considerando =
-		//Menor que 20: Abaixo do peso
+		//Menor que 22: Abaixo do peso
 		//Entre 22 e 27: Dentro do peso
 		//Maior que 27: Sobrepeso/Obesidade
 		
