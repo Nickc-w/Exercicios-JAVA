@@ -9,7 +9,7 @@ public class Aula02ex30 {
 		int numero,maior=0;
 		
 		while(true) {
-			System.out.print("Digite um numero: [Aperte 0 para parar] ");
+			System.out.print("Digite um numero[Aperte 0 para parar]:  ");
 			numero = sc.nextInt();
 			if (numero == 0) {
 				break;
